@@ -1,0 +1,7 @@
+// dbConfig.json
+{
+    "user":"arturo",
+    "password": "prueba1234",
+    "host": "localhost",
+    "database": prueba_tecnica
+}

@@ -1,0 +1,23 @@
+CREATE TABLE USUARIOS(
+ ID VARCHAR(5), 
+ NOMBRE VARCHAR(50),
+ APELLIDO_PATERNO VARCHAR(50),
+ APELLIDO_MATERNO VARCHAR(50),
+ EMAIL VARCHAR(100),
+ NUMERO_TELEFONO VARCHAR(20),
+ ESTADO BOOLEAN,
+ PRIMARY KEY (ID)
+);
+
+
+CREATE TABLE IF NOT EXISTS public.usuarios
+	(
+	    id VARCHAR(5) NOT NULL,
+	    nombre VARCHAR(50),
+	    apellido_paterno VARCHAR(50),
+	    apellido_materno VARCHAR(50),
+	    email VARCHAR(100),
+	    numero_telefono VARCHAR(20),
+	    estado boolean,
+	    CONSTRAINT usuarios_pkey PRIMARY KEY (id)
+	);
